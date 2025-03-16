@@ -1,6 +1,6 @@
-#include <main.h>
+#include "precompile.h"
 
 int main()
 {
-	
+	test();
 }
