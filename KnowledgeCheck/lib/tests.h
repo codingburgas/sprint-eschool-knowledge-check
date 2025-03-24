@@ -1,9 +1,9 @@
 #pragma once
 #include "precompile.h"
 
-int Quest_Num = 1;
-int correct = 0;
-int Wrong = 0;
+float Quest_Num = 1;
+float correct = 0;
+float Wrong = 0;
 
 bool IsQuestionAsked[9] = { true, true, true, true, true, true , true, true, true };
 
@@ -86,17 +86,25 @@ void mark()
 	cout << "Amount of Questions: " << Quest_Num - 1 << endl;
 	cout << "Correct Answers: " << correct << endl;
 	cout << "Wrong Answers: " << Wrong << endl;
-	if (correct > Wrong)
+	if (correct < 5)
 	{
-		cout << "You passed!";
+		cout << "You got a 2! You can do better!";
 	}
-	else if (correct < Wrong)
+	else if (correct > 5 && correct <= 6)
 	{
-		cout << "You failed!";
+		cout << "You got a 3! You passed but I am sure you can do better";
+	}
+	else if (correct > 6 && correct <= 7)
+	{
+		cout << "You got a 4! You did good!";
+	}
+	else if (correct > 7 && correct < 9)
+	{
+		cout << "You got a 5! You did very good, push yourself a bit harder amd you will be perfect!";
 	}
 	else
 	{
-		cout << "You did good";
+		cout << "You got a 6! You are perfect!";
 	}
 }
 
