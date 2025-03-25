@@ -1,5 +1,5 @@
 #pragma once
-#include "precompile.h"
+#include "../lib/precompile.h"
 
 class MainMenu {
 public:

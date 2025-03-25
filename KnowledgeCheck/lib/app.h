@@ -1,14 +1,23 @@
 #pragma once
-#include "mainMenu.h"
-#include "tests.h"
+#include "../lib/mainMenu.h"
+#include "../lib/tests.h"
 
-class App {
+struct Pages {
+	bool mainMenu = 1;
+	bool tests = 0;
+
+};
+
+class App
+{
 public:
-	app();
+	App();
 	void update();
 	void appLogic();
 	void display();
 	void drawMainMenu();
-	void drawTests();
-	
+	/*void drawTests();*/
+	MainMenu mainMenu;
+	//TestsMenu testsMenu;
+	Pages pages;
 };
