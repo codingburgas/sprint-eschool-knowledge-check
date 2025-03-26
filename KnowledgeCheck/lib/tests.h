@@ -409,3 +409,46 @@ void psychology_quest(int num)
 		break;
 	}
 }
+void history_quest(int num)
+{
+	switch (num) {
+	case 0: question("What year did World War I begin?",
+		"1912", "1914", "1918", "1923", 'b');
+		break;
+	case 1: question("Which alliance included Germany in WWI?",
+		"Allies", "Central Powers", "Axis", "Triple Entente", 'b');
+		break;
+	case 2: question("Bulgaria joined WWI on which side?",
+		"Allies", "Central Powers", "Neutral", "Switched sides", 'b');
+		break;
+
+	case 3: question("What did the Treaty of Neuilly (1919) do to Bulgaria?",
+		"Gave it new lands", "Made it a world power",
+		"Reduced its army and territory", "Ended communism", 'c');
+		break;
+
+	case 4: question("Where was the Western Front mainly fought?",
+		"Russia", "France/Belgium", "Balkans", "Africa", 'b');
+		break;
+
+	case 5: question("What year did WWII begin?",
+		"1935", "1939", "1941", "1945", 'b');
+		break;
+
+	case 6: question("Bulgaria joined WWII on which side?",
+		"Allies", "Axis", "Neutral", "Switched sides", 'b');
+		break;
+
+	case 7: question("The Treaty of Neuilly punished Bulgaria after which war?",
+		"Crimean War", "WWI", "WWII", "Balkan Wars", 'b');
+		break;
+
+	case 8: question("What territory did Bulgaria lose in Neuilly Treaty?",
+		"Varna", "Thrace to Greece", "Sofia", "Danube River", 'b');
+		break;
+
+	case 9: question("What military restriction did Neuilly impose?",
+		"No navy", "20,000 soldier limit", "No tanks", "No air force", 'b');
+		break;
+	}
+}
