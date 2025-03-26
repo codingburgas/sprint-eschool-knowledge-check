@@ -1,6 +1,7 @@
 #include "../lib/precompile.h"
-#include "../lib/app.h"
+#include "../lib/tests.h"
 
-int main() {
-    App app;
+int main() 
+{
+	test();
 }

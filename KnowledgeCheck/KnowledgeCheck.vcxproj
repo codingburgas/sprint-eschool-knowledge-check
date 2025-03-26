@@ -19,19 +19,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="lib\app.h" />
-    <ClInclude Include="lib\mainMenu.h" />
+    <ClInclude Include="lib\Mainmenu.h" />
     <ClInclude Include="lib\precompile.h" />
     <ClInclude Include="lib\tests.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="src\app.cpp" />
     <ClCompile Include="src\main.cpp" />
-    <ClCompile Include="src\mainMenu.cpp" />
     <ClCompile Include="src\tests.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <Image Include="assets\MainMenu-Background.png" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>

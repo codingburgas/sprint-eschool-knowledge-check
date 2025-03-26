@@ -1,37 +1,4 @@
-﻿  app.cpp
-  main.cpp
-  Generating Code...
-  KnowledgeCheck.vcxproj -> C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\x64\Debug\KnowledgeCheck.exe
-  'pwsh.exe' is not recognized as an internal or external command,
-  operable program or batch file.
-  Set-Content : Could not find file 'C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\Kn
-  owledgeCheck\x64\Debug\vcpkg.applocal.log'.
-  At C:\Users\GRIGS\Documents\vcpkg\scripts\buildsystems\msbuild\applocal.ps1:12 char:5
-  +     Set-Content -Path $copiedFilesLog -Value "" -Encoding UTF8
-  +     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      + CategoryInfo          : ObjectNotFound: (C:\Users\GRIGS\...kg.applocal.log:String) [Set-Content], FileNotFoundEx 
-     ception
-      + FullyQualifiedErrorId : GetContentWriterFileNotFoundError,Microsoft.PowerShell.Commands.SetContentCommand
-   
-  Add-Content : Could not find file 'C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\Kn
-  owledgeCheck\x64\Debug\vcpkg.applocal.log'.
-  At C:\Users\GRIGS\Documents\vcpkg\scripts\buildsystems\msbuild\applocal.ps1:61 char:32
-  + ... FilesLog) { Add-Content $copiedFilesLog $targetBinaryFilePath -Encodi ...
-  +                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      + CategoryInfo          : ObjectNotFound: (C:\Users\GRIGS\...kg.applocal.log:String) [Add-Content], FileNotFoundEx 
-     ception
-      + FullyQualifiedErrorId : GetContentWriterFileNotFoundError,Microsoft.PowerShell.Commands.AddContentCommand
-   
-  Add-Content : Could not find file 'C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\Kn
-  owledgeCheck\x64\Debug\KnowledgeCheck.tlog\KnowledgeCheck.write.1u.tlog'.
-  At C:\Users\GRIGS\Documents\vcpkg\scripts\buildsystems\msbuild\applocal.ps1:62 char:26
-  + ... tlogFile) { Add-Content $tlogFile $targetBinaryFilePath -Encoding Uni ...
-  +                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-      + CategoryInfo          : ObjectNotFound: (C:\Users\GRIGS\...k.write.1u.tlog:String) [Add-Content], FileNotFoundEx 
-     ception
-      + FullyQualifiedErrorId : GetContentWriterFileNotFoundError,Microsoft.PowerShell.Commands.AddContentCommand
-   
-  File not found - raylib.dll
-  0 File(s) copied
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: The command "xcopy /Y "C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\raylib\lib\raylib.dll" "C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\x64\Debug\"
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :VCEnd" exited with code 4.
+﻿  main.cpp
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(31,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1134,5): error MSB6006: "link.exe" exited with code 1104.
+LINK : fatal error LNK1104: cannot open file 'raylib.lib'
