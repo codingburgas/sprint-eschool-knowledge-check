@@ -299,3 +299,39 @@ void js_html_quest(int num)
 		break;
 	}
 }
+void german_quest(int num)
+{
+	switch (num)
+	{
+	case 0: question("What is the German word for 'apple'?",
+		"Banane", "Orange", "Apfel", "Traube", 'c');
+		break;
+	case 1: question("Which of these is the correct German greeting?",
+		"Bonjour", "Hallo", "Ciao", "Hola", 'b');
+		break;
+	case 2: question("What does 'Guten Morgen' mean in English?",
+		"Good evening", "Good morning", "Good night", "Good day", 'b');
+		break;
+	case 3: question("Which of these articles is feminine in German?",
+		"der", "die", "das", "den", 'b');
+		break;
+	case 4: question("What is the German word for 'dog'?",
+		"Katze", "Hund", "Vogel", "Maus", 'b');
+		break;
+	case 5: question("Which of these is a German number?",
+		"uno", "eins", "dix", "quattro", 'b');
+		break;
+	case 6: question("What does 'Ich hei?e' mean?",
+		"I live", "I eat", "My name is", "I have", 'c');
+		break;
+	case 7: question("Which of these is a German color?",
+		"blau", "rojo", "vert", "azul", 'a');
+		break;
+	case 8: question("How do you say 'thank you' in German?",
+		"Danke", "Merci", "Grazie", "Gracias", 'a');
+		break;
+	case 9: question("What does 'Tsch?ss' mean?",
+		"Hello", "Goodbye", "Please", "Yes", 'b');
+		break;
+	}
+}
