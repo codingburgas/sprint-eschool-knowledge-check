@@ -1,4 +1,5 @@
-﻿  main.cpp
-C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(31,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(1134,5): error MSB6006: "link.exe" exited with code 1104.
-LINK : fatal error LNK1104: cannot open file 'raylib.lib'
+﻿  KnowledgeCheck.vcxproj -> C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\x64\Debug\KnowledgeCheck.exe
+  File not found - raylib.dll
+  0 File(s) copied
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: The command "xcopy /Y "C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\raylib\lib\raylib.dll" "C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\x64\Debug\"
+C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :VCEnd" exited with code 4.

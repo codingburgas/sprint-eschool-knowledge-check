@@ -21,7 +21,7 @@
     <ClInclude Include="lib\tests.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lib\Mainmenu.h">
+    <ClInclude Include="lib\mainMenu.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

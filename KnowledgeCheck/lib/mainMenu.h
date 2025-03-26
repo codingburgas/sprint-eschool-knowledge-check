@@ -1,3 +1,4 @@
 #pragma once
 #include "precompile.h"
-#include "tests.h"
+#include "../lib/tests.h"
+

@@ -1,33 +1,75 @@
 #pragma once
 #include "precompile.h"
+#include "mainMenu.h"
 
 float Quest_Num = 1;
 float correct = 0;
 float Wrong = 0;
 
+std::string player_confirm;
+std::string player_action;
 int player_choice;
+
 
 bool IsQuestionAsked[9] = { true, true, true, true, true, true , true, true, true };
 
+void choice();
+void chooseTest();
 void bio_quest(int num);
 void chem_quest(int num);
 void rand_question();
 void test();
-void question(string question, string a, string b, string c, string d, char correctAnswer);
+void question(std::string question, std::string a, std::string b, std::string c, std::string d, char correctAnswer);
 void mark();
 
 
+void chooseTest()
+{
+	system("cls");
+	std::cout << "Choose where you want to test yourself" << std::endl;
+	std::cout << "Type 1 for Biology" << std::endl;
+	std::cout << "Type 2 for Chemistry" << std::endl;
+	std::cout << "Type 3 for Mathematics" << std::endl;
+	std::cout << "Type 4 for Literature" << std::endl;
+	std::cout << "Type 5 for History" << std::endl;
+	std::cout << "Type 6 for English" << std::endl;
+	std::cout << "Type 7 for sthhh" << std::endl;
+	std::cin >> player_choice;
+}
 
 void test()
 {
 	system("cls");
-	cout << "Question Number: " << Quest_Num << "\t\tCorrect Answers: " << correct << "\t\tWrong Answers: " << Wrong << endl;
-	rand_question();
+	std::cout << "Question Number: " << Quest_Num << "\t\tCorrect Answers: " << correct << "\t\tWrong Answers: " << Wrong << std::endl;
 }
 
+void choice()
+{
+	system("cls");
+	std::cout << "Are you here to Learn or to Test yourself?" << "\t\t(Choose: Learn or Test)" << std::endl;
+	std::cin >> player_action;
+	if (player_action == "Test")
+	{
+		rand_question();
+	}
+	else if (player_action == "Learn")
+	{
+		/*learn_choice();*/
+	}
+	else
+	{
+		system("cls");
+		std::cout << "Error! You have to chose between Learn or Test" << "\t\t(Type: ok)" << std::endl;
+		std::cin >> player_confirm;
+		choice();
+	}
+}
 
 void rand_question()
 {
+	
+	chooseTest();
+	test();
 	srand(time(0));
 	bool QuestionReamin = false;
 	for (int i = 0; i < 9; i++)
@@ -41,7 +83,6 @@ void rand_question()
 	while (QuestionReamin)
 	{
 		int num = rand() % 9;
-		cin >> player_choice;
 		if (IsQuestionAsked[num])
 		{
 			IsQuestionAsked[num] = false;
@@ -55,43 +96,42 @@ void rand_question()
 			}
 		}
 	}
-	mark();
 }
 
 void mark()
 {
 	if (correct < 5)
 	{
-		cout << "You got a 2! You can do better!";
+		std::cout << "You got a 2! You can do better!";
 	}
 	else if (correct > 5 && correct <= 6)
 	{
-		cout << "You got a 3! You passed but I am sure you can do better";
+		std::cout << "You got a 3! You passed but I am sure you can do better";
 	}
 	else if (correct > 6 && correct <= 7)
 	{
-		cout << "You got a 4! You did good!";
+		std::cout << "You got a 4! You did good!";
 	}
 	else if (correct > 7 && correct < 9)
 	{
-		cout << "You got a 5! You did very good, push yourself a bit harder amd you will be perfect!";
+		std::cout << "You got a 5! You did very good, push yourself a bit harder amd you will be perfect!";
 	}
 	else
 	{
-		cout << "You got a 6! You are perfect!";
+		std::cout << "You got a 6! You are perfect!";
 	}
 
 }
 
-void question(string question, string a, string b, string c, string d, char correctAnswer)
+void question(std::string question, std::string a, std::string b, std::string c, std::string d, char correctAnswer)
 {
-	cout << question << endl;;
-	cout << "a) " << a << endl;
-	cout << "b) " << b << endl;
-	cout << "c) " << c << endl;
-	cout << "d) " << d << endl;
+	std::cout << question << std::endl;;
+	std::cout << "a) " << a << std::endl;
+	std::cout << "b) " << b << std::endl;
+	std::cout << "c) " << c << std::endl;
+	std::cout << "d) " << d << std::endl;
 	char answer;
-	cin >> answer;
+	std::cin >> answer;
 	if (answer == correctAnswer)
 	{
 		correct++;
@@ -143,9 +183,10 @@ void bio_quest(int num)
 		break;
 
 	}
+	mark();
 }
 
-inline void chem_quest(int num)
+void chem_quest(int num)
 {
 	switch (num)
 	{
@@ -182,4 +223,6 @@ inline void chem_quest(int num)
 		"Gold", "Silver", "Argon", "Aluminum", 'b');
 		break;
 	}
+	mark();
 }
+

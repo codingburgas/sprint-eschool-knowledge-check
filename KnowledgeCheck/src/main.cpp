@@ -1,7 +1,10 @@
 #include "../lib/precompile.h"
 #include "../lib/tests.h"
 
+
 int main() 
 {
-	test();
+	system("Color 09");
+	choice();
+
 }
