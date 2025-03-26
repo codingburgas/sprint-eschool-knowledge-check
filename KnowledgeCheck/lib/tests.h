@@ -452,3 +452,47 @@ void history_quest(int num)
 		break;
 	}
 }
+void geography_quest(int num)
+{
+	switch (num) {
+	case 0: question("What is condensation in the water cycle?",
+		"Water turning into vapor", "Vapor cooling into liquid water",
+		"Rain falling from clouds", "Ice melting into water", 'b');
+		break;
+	case 1: question("Which process forms clouds?",
+		"Evaporation", "Condensation", "Precipitation", "Infiltration", 'b');
+		break;
+	case 2: question("What is sublimation?",
+		"Liquid turning to gas", "Solid turning directly to gas",
+		"Gas turning to liquid", "Liquid turning to solid", 'b');
+		break;
+	case 3: question("What type of radiation do we call 'infrared rays'?",
+		"Visible light", "Heat radiation",
+		"Ultraviolet light", "X-rays", 'b');
+		break;
+	case 4: question("What is the main source of infrared radiation on Earth?",
+		"The Moon", "Human technology",
+		"The Sun", "Earth's core", 'c');
+		break;
+	case 5: question("Where does condensation typically occur in the atmosphere?",
+		"In volcanic eruptions", "On cold surfaces or in clouds",
+		"Only in the ocean", "Underground", 'b');
+		break;
+
+	case 6: question("Which activity belongs to the SECONDARY sector?",
+		"Wheat farming", "Car manufacturing",
+		"Teaching", "Banking", 'b');
+		break;
+	case 7: question("The PRIMARY sector includes:",
+		"Coal mining", "Bread baking",
+		"School education", "Internet services", 'a');
+		break;
+	case 8: question("The TERTIARY sector includes:",
+		"Oil drilling", "Construction",
+		"Healthcare services", "Steel production", 'c');
+		break;
+	case 9: question("What is the main greenhouse gas?",
+		"Oxygen", "Nitrogen", "Carbon dioxide", "Argon", 'c');
+		break;
+	}
+}
