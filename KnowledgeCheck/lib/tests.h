@@ -335,3 +335,41 @@ void german_quest(int num)
 		break;
 	}
 }
+void lit_quest(int num)
+{
+	switch (num)
+	{
+	case 0: question("Where does the name ""Paiisi Hilendarski"" come from?",
+		"""Paiisi"" was his monk name and ""Hilendarski"" comes from the monastery ""Hilendar""", """Paiisi"" is the monastery name and ""Hilendarski"" was his monk name", "That is his actual name", "None of the above", 'a');
+		break;
+	case 1: question("In what year was ""Istoria Slavyanobulgarska"" written?",
+		"In 1862", "In 1762",
+		"In 1759", "In 1764", 'b');
+		break;
+	case 2: question("What is the genre of ""Istoria Slavyanobulgarska""?",
+		"The genre is history", "The genre is Novel-like", "The genre is history with comments from the author", "The genre is a poem", 'c');
+		break;
+	case 3: question("To who was Paiisi Hilendarski talking about during the first half of his production?",
+		"To the patriotic Bulgarians", "To the foreigners", "To the unfaithful Bulgarians", "To himself", 'a');
+		break;
+	case 4: question("Where was Sharl Bodler born?",
+		"Paris", "Barcelona", "Berlin", "London", 'a');
+		break;
+	case 5: question("How many parts are there in  ""Istoria Slavyanobulgarska""?",
+		"There are 5 parts", "There are 7 parts", "There are 12 parts", "There are 10 parts", 'd');
+		break;
+	case 6: question("What are some of the themes of ""Istoria Slavyanobulgarska""?",
+		"The achievements of Russia", "The glory of Greece", "The history of the Ottomans", "Where Bulgarians came from and their native language, The glorious past of Bulgaria, All of the cultural and spiritual achievements of the past Bulgarians", 'd');
+		break;
+	case 7: question("When was this author's first literature piece published?",
+		"In the year 1857.", "In the year 1855.",
+		"In the year 1866.", "In the year 1762.", 'a');
+		break;
+	case 8: question("Who is the main character in ""Spleen""?",
+		"The author of ""Spleen""", "The main character is the figure of the lyrical speaker", "The main character is Sharl Bodler", "All of the above", 'd');
+		break;
+	case 9: question("What is the main theme of ""Spleen""?",
+		"The theme of heartbreak", "The theme of death and sorrow", "The theme of love", "The theme of adventure", 'b');
+		break;
+	}
+}
