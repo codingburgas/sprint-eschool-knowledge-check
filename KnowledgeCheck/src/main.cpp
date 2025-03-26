@@ -6,5 +6,4 @@ int main()
 {
 	system("Color 09");
 	choice();
-
 }

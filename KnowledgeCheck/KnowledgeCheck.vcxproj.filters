@@ -21,15 +21,9 @@
     <ClInclude Include="lib\tests.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="lib\mainMenu.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="src\tests.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

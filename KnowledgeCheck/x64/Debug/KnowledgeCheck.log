@@ -1,5 +1,28 @@
-﻿  KnowledgeCheck.vcxproj -> C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\x64\Debug\KnowledgeCheck.exe
-  File not found - raylib.dll
-  0 File(s) copied
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: The command "xcopy /Y "C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\raylib\lib\raylib.dll" "C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\x64\Debug\"
-C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppCommon.targets(166,5): error MSB3073: :VCEnd" exited with code 4.
+﻿  main.cpp
+C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(75,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(97,12): error C3861: 'physics_quest': identifier not found
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(99,12): error C3861: 'js_html_quest': identifier not found
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(101,12): error C3861: 'german_quest': identifier not found
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(103,12): error C3861: 'lit_quest': identifier not found
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(105,12): error C3861: 'psychology_quest': identifier not found
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(107,12): error C3861: 'history_quest': identifier not found
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(109,12): error C3861: 'geography_quest': identifier not found
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(111,13): error C3861: 'english_quest': identifier not found
+  (compiling source file 'src/main.cpp')
+  

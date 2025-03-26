@@ -1,6 +1,5 @@
 #pragma once
 #include "precompile.h"
-#include "mainMenu.h"
 
 float Quest_Num = 1;
 float correct = 0;
@@ -29,11 +28,14 @@ void chooseTest()
 	std::cout << "Choose where you want to test yourself" << std::endl;
 	std::cout << "Type 1 for Biology" << std::endl;
 	std::cout << "Type 2 for Chemistry" << std::endl;
-	std::cout << "Type 3 for Mathematics" << std::endl;
-	std::cout << "Type 4 for Literature" << std::endl;
-	std::cout << "Type 5 for History" << std::endl;
-	std::cout << "Type 6 for English" << std::endl;
-	std::cout << "Type 7 for sthhh" << std::endl;
+	std::cout << "Type 3 for Physics" << std::endl;
+	std::cout << "Type 4 for Information Technologies (IT)" << std::endl;
+	std::cout << "Type 5 for German" << std::endl;
+	std::cout << "Type 6 for Literature" << std::endl;
+	std::cout << "Type 7 for Psychology" << std::endl;
+	std::cout << "Type 8 for History" << std::endl;
+	std::cout << "Type 9 for Geography" << std::endl;
+	std::cout << "Type 10 for English" << std::endl;
 	std::cin >> player_choice;
 }
 
@@ -91,6 +93,22 @@ void rand_question()
 			case 1: bio_quest(num);
 				break;
 			case 2: chem_quest(num);
+				break;
+			case 3: physics_quest(num);
+				break;
+			case 4: js_html_quest(num);
+				break;
+			case 5: german_quest(num);
+				break;
+			case 6: lit_quest(num);
+				break;
+			case 7: psychology_quest(num);
+				break;
+			case 8: history_quest(num);
+				break;
+			case 9: geography_quest(num);
+				break;
+			case 10: english_quest(num);
 				break;
 
 			}
@@ -262,6 +280,8 @@ void physics_quest(int num)
 		"Thermal", "Chemical", "Gravity", "Mechanical", 'c');
 		break;
 	}
+
+	mark();
 }
 void js_html_quest(int num)
 {
@@ -298,6 +318,7 @@ void js_html_quest(int num)
 		"color", "background-color", "bgcolor", "background", 'b');
 		break;
 	}
+	mark();
 }
 void german_quest(int num)
 {
@@ -334,6 +355,7 @@ void german_quest(int num)
 		"Hello", "Goodbye", "Please", "Yes", 'b');
 		break;
 	}
+	mark();
 }
 void lit_quest(int num)
 {
@@ -372,6 +394,7 @@ void lit_quest(int num)
 		"The theme of heartbreak", "The theme of death and sorrow", "The theme of love", "The theme of adventure", 'b');
 		break;
 	}
+	mark();
 }
 void psychology_quest(int num)
 {
@@ -408,6 +431,7 @@ void psychology_quest(int num)
 		"Obedience", "Social Facilitation", "Groupthink", "Conformity", 'd');
 		break;
 	}
+	mark();
 }
 void history_quest(int num)
 {
@@ -451,6 +475,7 @@ void history_quest(int num)
 		"No navy", "20,000 soldier limit", "No tanks", "No air force", 'b');
 		break;
 	}
+	mark();
 }
 void geography_quest(int num)
 {
@@ -495,6 +520,7 @@ void geography_quest(int num)
 		"Oxygen", "Nitrogen", "Carbon dioxide", "Argon", 'c');
 		break;
 	}
+	mark();
 }
 void english_quest(int num)
 {
@@ -531,4 +557,5 @@ void english_quest(int num)
 		"Nevertheless", "Notwithstanding", "Whereas", "However", 'b');
 		break;
 	}
+	mark();
 }
