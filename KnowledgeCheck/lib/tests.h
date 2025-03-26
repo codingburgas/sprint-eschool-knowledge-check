@@ -496,3 +496,39 @@ void geography_quest(int num)
 		break;
 	}
 }
+void english_quest(int num)
+{
+	switch (num)
+	{
+	case 0: question("She  to school every day.",
+		"go", "goes", "going", "gone", 'b');
+		break;
+	case 1: question("They  playing football now.",
+		"is", "are", "am", "be", 'b');
+		break;
+	case 2: question("My brother  a new bike last week.",
+		"buy", "buys", "bought", "buying", 'c');
+		break;
+	case 3: question("By the time we arrived, the movie .",
+		"already started", "had already started", "has already started", "was already starting", 'b');
+		break;
+	case 4: question("If I  you, I would apologize immediately.",
+		"am", "was", "were", "had been", 'c');
+		break;
+	case 5: question("She's the woman  helped me find my lost dog.",
+		"which", "who", "whose", "whom", 'b');
+		break;
+	case 6: question("Despite  tired, he finished the project on time.",
+		"being", "been", "be", "to be", 'a');
+		break;
+	case 7: question("Were  to postpone the event, we'd need to inform all participants immediately.",
+		"we", "us", "our", "ours", 'a');
+		break;
+	case 8: question("The proposal was  convoluted that even the experts struggled to decipher it.",
+		"so", "such", "too", "very", 'a');
+		break;
+	case 9: question(" his reputation as a recluse, he attended the gala with surprising enthusiasm.",
+		"Nevertheless", "Notwithstanding", "Whereas", "However", 'b');
+		break;
+	}
+}
