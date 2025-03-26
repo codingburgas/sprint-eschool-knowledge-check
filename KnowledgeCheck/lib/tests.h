@@ -223,6 +223,43 @@ void chem_quest(int num)
 		"Gold", "Silver", "Argon", "Aluminum", 'b');
 		break;
 	}
+
 	mark();
 }
 
+void physics_quest(int num)
+{
+	switch (num)
+	{
+	case 0: question("What is the unit of force?",
+		"Joule", "Newton", "Watt", "Pascal", 'b');
+		break;
+	case 1: question("What is the acceleration due to gravity on Earth?",
+		"9.8 m/s?", "10 m/s?", "8.9 m/s?", "12 m/s?", 'a');
+		break;
+	case 2: question("Which of the following is a vector quantity?",
+		"Speed", "Distance", "Displacement", "Mass", 'c');
+		break;
+	case 3: question("What is Newton's First Law also known as?",
+		"Law of Acceleration", "Law of Inertia", "Law of Action-Reaction", "Law of Gravity", 'b');
+		break;
+	case 4: question("What is the formula for kinetic energy?",
+		"mgh", "1/2 mv?", "F = ma", "P = IV", 'b');
+		break;
+	case 5: question("Which simple machine is a ramp?",
+		"Lever", "Pulley", "Inclined Plane", "Wheel and Axle", 'c');
+		break;
+	case 6: question("What is the SI unit of power?",
+		"Joule", "Watt", "Newton", "Ampere", 'b');
+		break;
+	case 7: question("Which law states that F = ma?",
+		"Newton's First Law", "Newton's Second Law", "Newton's Third Law", "Law of Conservation of Energy", 'b');
+		break;
+	case 8: question("What type of energy is stored in a stretched spring?",
+		"Kinetic Energy", "Chemical Energy", "Elastic Potential Energy", "Thermal Energy", 'c');
+		break;
+	case 9: question("Which of the following is NOT a form of energy?",
+		"Thermal", "Chemical", "Gravity", "Mechanical", 'c');
+		break;
+	}
+}
