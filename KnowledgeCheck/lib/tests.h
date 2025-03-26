@@ -373,3 +373,39 @@ void lit_quest(int num)
 		break;
 	}
 }
+void psychology_quest(int num)
+{
+	switch (num)
+	{
+	case 0: question("Who is considered the father of modern psychology?",
+		"Sigmund Freud", "B.F. Skinner", "William James", "Wilhelm Wundt", 'd');
+		break;
+	case 1: question("What part of the brain is responsible for decision-making?",
+		"Cerebellum", "Prefrontal Cortex", "Hippocampus", "Medulla", 'b');
+		break;
+	case 2: question("What is the term for learning through rewards and punishments?",
+		"Classical Conditioning", "Operant Conditioning", "Observational Learning", "Latent Learning", 'b');
+		break;
+	case 3: question("Which psychologist developed the theory of classical conditioning?",
+		"B.F. Skinner", "Ivan Pavlov", "Jean Piaget", "Carl Rogers", 'b');
+		break;
+	case 4: question("What is the main focus of cognitive psychology?",
+		"Emotions and Feelings", "Brain Structure", "Mental Processes", "Social Interactions", 'c');
+		break;
+	case 5: question("What is the term for a person's unique pattern of thoughts, feelings, and behaviors?",
+		"Identity", "Personality", "Cognition", "Perception", 'b');
+		break;
+	case 6: question("Which psychological perspective focuses on unconscious drives and conflicts?",
+		"Behavioral", "Humanistic", "Psychoanalytic", "Cognitive", 'c');
+		break;
+	case 7: question("What is the term for a mental shortcut used to make decisions quickly?",
+		"Algorithm", "Heuristic", "Cognition", "Bias", 'b');
+		break;
+	case 8: question("What is Maslow’s highest level of need in his hierarchy?",
+		"Esteem", "Love/Belonging", "Self-Actualization", "Safety", 'c');
+		break;
+	case 9: question("What is the phenomenon where individuals conform to group behavior?",
+		"Obedience", "Social Facilitation", "Groupthink", "Conformity", 'd');
+		break;
+	}
+}
