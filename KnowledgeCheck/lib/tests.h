@@ -263,3 +263,39 @@ void physics_quest(int num)
 		break;
 	}
 }
+void js_html_quest(int num)
+{
+	switch (num)
+	{
+	case 0: question("What does HTML stand for?",
+		"Hyper Text Markup Language", "Hyperlinks and Text Markup Language", "Home Tool Markup Language", "Hyper Transfer Markup Language", 'a');
+		break;
+	case 1: question("Which HTML tag is used to define an internal JavaScript?",
+		"<script>", "<js>", "<javascript>", "<code>", 'a');
+		break;
+	case 2: question("How do you write 'Hello World' in an alert box in JavaScript?",
+		"msg('Hello World');", "alertBox('Hello World');", "alert('Hello World');", "console.log('Hello World');", 'c');
+		break;
+	case 3: question("Which symbol is used for single-line comments in JavaScript?",
+		"//", "/* */", "--", "#", 'a');
+		break;
+	case 4: question("Which of the following is NOT a valid HTML5 element?",
+		"<header>", "<section>", "<footer>", "<blink>", 'd');
+		break;
+	case 5: question("Which JavaScript keyword is used to declare a variable?",
+		"var", "int", "string", "declare", 'a');
+		break;
+	case 6: question("What is the correct way to link an external JavaScript file in HTML?",
+		"<script src='file.js'>", "<js link='file.js'>", "<javascript src='file.js'>", "<script href='file.js'>", 'a');
+		break;
+	case 7: question("Which event occurs when the user clicks on an HTML element?",
+		"onmouseclick", "onclick", "onhover", "onpress", 'b');
+		break;
+	case 8: question("What is the correct way to create a function in JavaScript?",
+		"function myFunction()", "def myFunction()", "create myFunction()", "new function myFunction()", 'a');
+		break;
+	case 9: question("Which property is used to change the background color in CSS?",
+		"color", "background-color", "bgcolor", "background", 'b');
+		break;
+	}
+}
