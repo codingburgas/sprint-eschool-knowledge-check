@@ -1,28 +1,16 @@
-﻿  main.cpp
-C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(75,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  (compiling source file 'src/main.cpp')
-  
-C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(97,12): error C3861: 'physics_quest': identifier not found
-  (compiling source file 'src/main.cpp')
-  
-C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(99,12): error C3861: 'js_html_quest': identifier not found
-  (compiling source file 'src/main.cpp')
-  
-C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(101,12): error C3861: 'german_quest': identifier not found
-  (compiling source file 'src/main.cpp')
-  
-C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(103,12): error C3861: 'lit_quest': identifier not found
-  (compiling source file 'src/main.cpp')
-  
-C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(105,12): error C3861: 'psychology_quest': identifier not found
-  (compiling source file 'src/main.cpp')
-  
-C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(107,12): error C3861: 'history_quest': identifier not found
-  (compiling source file 'src/main.cpp')
-  
-C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(109,12): error C3861: 'geography_quest': identifier not found
-  (compiling source file 'src/main.cpp')
-  
-C:\Users\GRIGS\Documents\PGKPI\PRG\Knowledge_Check\sprint-eschool-knowledge-check\KnowledgeCheck\lib\tests.h(111,13): error C3861: 'english_quest': identifier not found
-  (compiling source file 'src/main.cpp')
-  
+﻿  test_work.cpp
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\src\test_work.cpp(3,7): error C2086: 'float Quest_Num': redefinition
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\lib\test_work.h(5,7): message : see declaration of 'Quest_Num'
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\src\test_work.cpp(4,7): error C2086: 'float correct': redefinition
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\lib\test_work.h(6,7): message : see declaration of 'correct'
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\src\test_work.cpp(5,7): error C2086: 'float Wrong': redefinition
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\lib\test_work.h(7,7): message : see declaration of 'Wrong'
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\src\test_work.cpp(7,13): error C2086: 'std::string player_confirm': redefinition
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\lib\test_work.h(8,13): message : see declaration of 'player_confirm'
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\src\test_work.cpp(8,13): error C2086: 'std::string player_action': redefinition
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\lib\test_work.h(9,13): message : see declaration of 'player_action'
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\src\test_work.cpp(9,5): error C2086: 'int player_choice': redefinition
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\lib\test_work.h(10,5): message : see declaration of 'player_choice'
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\src\test_work.cpp(11,6): error C2086: 'bool IsQuestionAsked[9]': redefinition
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\lib\test_work.h(11,6): message : see declaration of 'IsQuestionAsked'
+C:\Users\nistel\Documents\KnowlegeCheck\sprint-eschool-knowledge-check\KnowledgeCheck\src\test_work.cpp(24,12): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data

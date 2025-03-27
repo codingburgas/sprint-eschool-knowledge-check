@@ -1,5 +1,5 @@
 #include "../lib/precompile.h"
-#include "../lib/tests.h"
+#include "../lib/choice.h"
 
 
 int main() 
